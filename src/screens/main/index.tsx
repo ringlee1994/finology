@@ -78,6 +78,9 @@ const Main = () => {
     const isFilterApplied = !!searchQuery || !!selectedCity || !!selectedCompany;
     return (
       <View style={styles.marginTop.mt60}>
+        <Text variant={'displaySmall'} style={styles.textAlign.center}>
+          {TEXT_STRING.USERS}
+        </Text>
         <SearchBar
           placeholder={TEXT_STRING.SEARCH}
           value={searchQuery}
