@@ -202,6 +202,7 @@ const styles = StyleSheet.create({
         mv1: { marginVertical: 1 },
         mv3: { marginVertical: 3 },
         mv5: { marginVertical: 5 },
+        mv6: { marginVertical: 6 },
         mv10: { marginVertical: 10 },
         mv15: { marginVertical: 15 },
         mv16: { marginVertical: 16 },
